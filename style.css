@@ -1,0 +1,90 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #eae1b0;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.502);
+}
+
+nav a{
+    color: black;
+}
+
+.header{
+    padding-top: 20px;
+    color: rgb(178, 109, 109);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+
+.plant-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.plant-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.article-card{
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.article-card:hover{
+    box-shadow: 0px 40px 20px 0px rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+
+.plant-info{
+    padding: 2rem;
+}
+
+.plant-info .card-title{
+    margin: 1rem 0;
+}
+
+.plant-info .sci-name{
+    font-style: italic;
+}
+
+.plant-info .card-excerpt{
+    font-size: 1rem;
+    line-height: 1.5 rem;
+    margin: 0;
+}
+
+@media screen and(min-width:768px){
+    .site-container{
+        max-width: 608px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+    }
+}
