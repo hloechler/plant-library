@@ -1,22 +1,39 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 100%;
   font-size: 16px;
   line-height: 1.5;
-  background: #eae1b0;
+  background: #01352c;
 }
 
 nav{
-    background-color: rgba(255, 255, 255, 0.502);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.649);
+    
+}
+
+nav button:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+   
+}
+
+#library-btn-text{
+    font-size: 20px;
 }
 
 nav a{
-    color: black;
+    color: #000000;
+}
+
+nav a:hover{
+    text-decoration: none;
+    
 }
 
 .header{
     padding-top: 20px;
-    color: rgb(178, 109, 109);
+    color: #e1eacd;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -88,3 +105,4 @@ nav a{
         max-width: 1156px;
     }
 }
+
