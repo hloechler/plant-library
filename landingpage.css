@@ -1,0 +1,38 @@
+header {
+  background-image: url(./img/plant-background.jpeg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  backdrop-filter: blur(10px);
+  border-radius: 10%;
+  max-width: fit-content;
+}
+#plant-search-btn img {
+  width: 30%;
+  
+}
+#popup-search {
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  backdrop-filter: blur(60px);
+  padding: 10px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+
+#close-button {
+  font-size: 80%;
+  margin-bottom: 3%;
+}

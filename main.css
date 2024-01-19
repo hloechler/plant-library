@@ -1,108 +1,104 @@
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 100%;
   font-size: 16px;
   line-height: 1.5;
   background: #01352c;
 }
 
-nav{
-    color: #000000;
-    background-color: rgba(255, 255, 255, 0.649);
-    
+nav {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.649);
 }
 
-nav button:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 5%;
-   
+nav button:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
 }
 
-#library-btn-text{
-    font-size: 20px;
+#library-btn-text {
+  font-size: 20px;
 }
 
-nav a{
-    color: #000000;
+nav a {
+  color: #000000;
 }
 
-nav a:hover{
-    text-decoration: none;
-    
+nav a:hover {
+  text-decoration: none;
 }
 
-.header{
-    padding-top: 20px;
-    color: #e1eacd;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.header {
+  padding-top: 20px;
+  color: #e1eacd;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.site-container{
-    margin: 2rem auto;
-    max-width: calc(100% - 80px);
+.site-container {
+  margin: 2rem auto;
+  max-width: calc(100% - 80px);
 }
 
-.plant-container{
+.plant-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 2rem;
+}
+
+.plant-image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.plant-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.article-card {
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.article-card:hover {
+  box-shadow: 0px 40px 20px 0px rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+
+.plant-info {
+  padding: 2rem;
+}
+
+.plant-info .card-title {
+  margin: 1rem 0;
+}
+
+.plant-info .sci-name {
+  font-style: italic;
+}
+
+.plant-info .card-excerpt {
+  font-size: 1rem;
+  line-height: 1.5 rem;
+  margin: 0;
+}
+
+@media screen and(min-width:768px) {
+  .site-container {
+    max-width: 608px;
+  }
+  .article-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-    gap: 2rem;
+    grid-template-rows: 220px 1fr;
+  }
 }
 
-.plant-image{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+@media screen and (min-width: 1280px) {
+  .site-container {
+    max-width: 1156px;
+  }
 }
-
-.plant-image img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.article-card{
-    background: white;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.article-card:hover{
-    box-shadow: 0px 40px 20px 0px rgba(34,68,123,0.2);
-    cursor: pointer;
-}
-
-.plant-info{
-    padding: 2rem;
-}
-
-.plant-info .card-title{
-    margin: 1rem 0;
-}
-
-.plant-info .sci-name{
-    font-style: italic;
-}
-
-.plant-info .card-excerpt{
-    font-size: 1rem;
-    line-height: 1.5 rem;
-    margin: 0;
-}
-
-@media screen and(min-width:768px){
-    .site-container{
-        max-width: 608px;
-    }
-    .article-card{
-        display: grid;
-        grid-template-rows: 220px 1fr;
-    }
-}
-
-@media screen and (min-width: 1280px){
-    .site-container{
-        max-width: 1156px;
-    }
-}
-

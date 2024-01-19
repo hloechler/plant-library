@@ -1,0 +1,36 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+.bg-image {
+  background-image: url("/Users/haileyloechler/projects/plant-library/img/ai.art-nature-1001783.jpg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(200px);
+  min-height: 600px;
+}
+
+.home-img {
+  padding-bottom: 20%;
+  margin-bottom: 20%;
+}
+
+.home-img p {
+  padding-top: 5%;
+  font-size: 75px;
+  text-align: center;
+}
+
+#title {
+  backdrop-filter: blur(20px);
+  border-radius: 10%;
+  height: 300px;
+  width: 600px;
+  margin-top: 5%;
+}
+
+.main-text {
+  margin-top: 5%;
+  max-width: 33%;
+}

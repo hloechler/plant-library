@@ -1,77 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css" >
-    <title>Hailey's Plant Library</title>
-</head>
-<body>
-    <nav class="navbar sticky-top bg-body-tertiary">
-        <div class="container-fluid">
-            <button class="btn" type="submit">
-                <a id="library-btn-text" href="#plants">Plant Library</a>
-            </button>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" type="submit">Search</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="bg-image">
+        <nav class="navbar sticky-top bg-body-tertiary">
+          <div class="container-fluid">
+            <p class="navbar-brand">Plant Library</p>
+            <form class="d-flex">
+              <button class="btn" type="submit">
+                <a href="landingpage.html"> Login/Create Account</a>
+              </button>
             </form>
-            <form class="d-flex" role="Logout">
-                <button class="btn" type="submit">
-                    <a href="landing.html">Logout</a>
-                </button>
-            </form>
+          </div>
+        </nav>
+        <div
+          class="container justify-content-center align-items-center home-img"
+          id="title"
+        >
+          <p>The Green Thumb Guide</p>
         </div>
-    </nav>
-    <header class="header">
-        <h1>Hailey's Personal Plant Library</h1>
+      </div>
     </header>
     <main>
-        <div class="site-container">
-          <div class="plant-container" id="plants">
-            <article class="article-card">
-                <figure class="plant-image">
-                    <img src="./img/—Pngtree—snake plant_6967391.png" alt="Image of a plant with long green leaves">
-                </figure>
-                <div class="plant-info">
-                    <h3 class="card-title">Snake Plant</h3>
-                    <p class="sci-name">(Dracaena Trifasciata)</p>
-                    <p class="card-excerpt">The snake plant is a popular and hardy houseplant. It is in the family Asparagaceae and is native to tropical West Africa. The leaves of the plant purify air inside of your home by absorbing toxins. These plants attract prosperity, money, and good energy.</p>
-                    <br>
-                    <h4>Temperature</h4>
-                    <p>70 degrees farhenheit to 90 degrees farhenheit</p>
-                </div>
-            </article>
-            <article class="article-card">
-                <figure class="plant-image">
-                    <img src="./img/—Pngtree—snake plant_6967391.png" alt="Image of a plant with long green leaves">
-                </figure>
-                <div class="plant-info">
-                    <h3 class="card-title">Snake Plant</h3>
-                    <p class="sci-name">(Dracaena Trifasciata)</p>
-                    <p class="card-excerpt">The snake plant is a popular and hardy houseplant. It is in the family Asparagaceae and is native to tropical West Africa. The leaves of the plant purify air inside of your home by absorbing toxins. These plants attract prosperity, money, and good energy.</p>
-                    <br>
-                    <h4>Temperature</h4>
-                    <p>70 degrees farhenheit to 90 degrees farhenheit</p>
-                </div>
-            </article>
-            <article class="article-card">
-                <figure class="plant-image">
-                    <img src="./img/—Pngtree—snake plant_6967391.png" alt="Image of a plant with long green leaves">
-                </figure>
-                <div class="plant-info">
-                    <h3 class="card-title">Snake Plant</h3>
-                    <p class="sci-name">(Dracaena Trifasciata)</p>
-                    <p class="card-excerpt">The snake plant is a popular and hardy houseplant. It is in the family Asparagaceae and is native to tropical West Africa. The leaves of the plant purify air inside of your home by absorbing toxins. These plants attract prosperity, money, and good energy.</p>
-                    <br>
-                    <h4>Temperature</h4>
-                    <p>70 degrees farhenheit to 90 degrees farhenheit</p>
-                </div>
-            </article>
-       
-            
-        </div>
+      <div class="main-text d-flex justify-content-start">
+        <p>
+          Welcome to the Green Thumb Guide, your new companion when it comes to
+          gardening. The Green Thumb Guide helps you to keep track of what
+          plants you have and gives you immediate access to information
+          regarding how to take care it.
+        </p>
+      </div>
     </main>
-</body>
+  </body>
 </html>
